@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoL Champion Explorer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Buscador de Campeones LoL</h1>
+        
+        <form id="search-form">
+            <input type="text" id="champ-input" placeholder="Nombre del campeón (ej: Ahri)" required>
+            <button type="submit">Buscar</button>
+        </form>
+
+        <div id="loading" class="hidden">Conectando con el servidor de Riot...</div>
+
+        <div id="error-message" class="error hidden"></div>
+
+        <section id="result-container"></section>
+    </div>
+
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>
