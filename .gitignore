@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+
+# Coverage reports
+coverage/
+
+# Logs
+npm-debug.log*
+
+# OS files
+.DS_Store
+
+# Environment files
+.env
+
+# Editor directories and files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Optional: lockfiles (if you prefer to keep them, remove this line)
+# package-lock.json
